@@ -9,3 +9,6 @@ export const pratica2 = (n: number): boolean | null => {
 
     return n % 2 == 0
 }
+
+pratica2(10)// true
+pratica2(1)//false
